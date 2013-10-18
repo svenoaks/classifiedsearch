@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_title">Error: No Internet Connection</string>
+    <string name="error_message">Cannot perform a search without a data connection. Try again when you are connected to wifi or not in a tunnel under the sea...</string>
+    <string name="error_ok">Oh snap!</string>
+</resources>

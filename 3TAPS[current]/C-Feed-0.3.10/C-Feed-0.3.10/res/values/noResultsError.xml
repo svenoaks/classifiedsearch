@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_results_title">No Search Results</string>
+    <string name="no_results_message">There were no listing results with your search conditions and query. Try changing the options or changing the search query.</string>
+    <string name="no_results_ok">Ermahgerd! NERRR!!</string>
+</resources>

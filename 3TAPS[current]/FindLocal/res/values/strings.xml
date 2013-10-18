@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="empty_view_text">No Results</string>
+    <string name="app_name">C-Widget</string>
+    <string name="craigslist">C-Widget</string>
+    <string name="search_options">Classifieds Search</string>
+    
+    <string name="add_search">Add a Search</string>
+    <string name="your_searches">My Searches</string>
+    <string name="delete_search">Delete Search</string>
+    <string name="sources">Sources</string>
+    <string name="source_list">All </string>
+    <string name="max_items">Items:\n20</string>
+    <string name="location">Location</string>
+     <string name="my_location">Not Set</string>
+     <string name="within">Within</string>
+     <string name="distance">20mi</string>
+      <string name="finished">Update Widget</string>
+
+</resources>

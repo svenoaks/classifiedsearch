@@ -1,0 +1,4 @@
+http://anchorage.craigslist.org
+http://fairbanks.craigslist.org
+http://kenai.craigslist.org
+http://juneau.craigslist.org

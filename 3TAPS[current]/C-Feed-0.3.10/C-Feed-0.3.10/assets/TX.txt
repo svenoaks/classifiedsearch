@@ -1,0 +1,27 @@
+abilene
+amarillo
+austin
+beaumont / port arthur
+brownsville
+college station
+corpus christi
+dallas / fort worth
+deep east texas
+del rio / eagle pass
+el paso
+galveston
+houston
+killeen / temple / ft hood
+laredo
+lubbock
+mcallen / edinburg
+odessa / midland
+san angelo
+san antonio
+san marcos
+southwest TX
+texoma
+tyler / east TX
+victoria
+waco
+wichita falls

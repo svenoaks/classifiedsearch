@@ -1,0 +1,29 @@
+Changelog for C-Feed Copyright (C) 2013 John Krause
+-----------------------------------------------------
+
+-v0.3.9
+*made listings open in-app instead of in external browser
+*removed buggy navigation buttons
+*implemented error dialog for no data connection
+*implemented dialog for no search results
+*made new vs already seen icons more obvious in results list
+
+-v0.3.1
+*changed about dialog
+
+-v0.3.0
+*added all search options to categories
+*fixed UI for older android versions
+
+-v0.2.3
+*Added new art assets
+
+-v0.2.2
+*fixed crash on first start
+
+-v0.2.1
+* app now saves last search and populates the search criteria with your last search
+* fixed text changing when switching orientation in main menu
+
+-v0.2
+* Initial release, saves viewed listings, usable for all United States

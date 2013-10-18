@@ -1,0 +1,15 @@
+all communities
+activities
+artists
+childcare
+general
+groups
+pets
+events
+lost+found
+musicians
+local news
+politics
+rideshare
+volunteers
+classes

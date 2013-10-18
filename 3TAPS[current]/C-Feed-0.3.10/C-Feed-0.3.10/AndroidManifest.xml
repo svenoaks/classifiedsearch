@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jpkrause.c_feed"
+    android:versionCode="8"
+    android:versionName="0.3.9" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:name="com.jpkrause.c_feed.CFeedApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_drawn"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.jpkrause.c_feed.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MainTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jpkrause.c_feed.ResultsListActivity"
+            android:label="@string/title_results_activity_list"
+            android:parentActivityName="com.jpkrause.c_feed.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jpkrause.c_feed.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.jpkrause.c_feed.ContinentListActivity"
+            android:label="@string/title_activity_continent_list"
+            android:parentActivityName="com.jpkrause.c_feed.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jpkrause.c_feed.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.jpkrause.c_feed.CountryListActivity"
+            android:label="@string/title_activity_country_list"
+            android:parentActivityName="com.jpkrause.c_feed.ContinentListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jpkrause.c_feed.ContinentListActivity" />
+        </activity>
+        <activity
+            android:name="com.jpkrause.c_feed.StateListActivity"
+            android:label="@string/title_activity_state_list"
+            android:parentActivityName="com.jpkrause.c_feed.CountryListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jpkrause.c_feed.CountryListActivity" />
+        </activity>
+        <activity
+            android:name="com.jpkrause.c_feed.CityListActivity"
+            android:label="@string/title_activity_city_list"
+            android:parentActivityName="com.jpkrause.c_feed.StateListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jpkrause.c_feed.StateListActivity" />
+        </activity>
+        <activity
+            android:name="com.jpkrause.c_feed.SectionListActivity"
+            android:label="@string/title_activity_section_list"
+            android:parentActivityName="com.jpkrause.c_feed.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jpkrause.c_feed.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.jpkrause.c_feed.CategoryListActivity"
+            android:label="@string/title_activity_category_list"
+            android:parentActivityName="com.jpkrause.c_feed.SectionListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jpkrause.c_feed.SectionListActivity" />
+        </activity>
+        <activity
+            android:name="com.jpkrause.c_feed.OptionsActivity"
+            android:label="@string/title_activity_options"
+            android:parentActivityName="com.jpkrause.c_feed.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jpkrause.c_feed.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.jpkrause.c_feed.ViewListingActivity"
+            android:label="@string/title_activity_view_listing"
+            android:parentActivityName="com.jpkrause.c_feed.ResultsListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jpkrause.c_feed.ResultsListActivity" />
+        </activity>
+    </application>
+
+</manifest>

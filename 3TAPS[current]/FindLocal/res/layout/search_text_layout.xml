@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp" >
+
+        <EditText
+            android:id="@+id/search_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="2"
+            android:hint="Entire Category" />
+
+        <CheckBox
+            android:id="@+id/thumbs_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="has image" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/title_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title" />
+
+        <RadioButton
+            android:id="@+id/entire_post_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:checked="true"
+            android:text="entire post" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/age_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age:" />
+
+        <EditText
+            android:id="@+id/min_age_text"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:inputType="number"
+            android:maxLength="2"
+            android:maxLines="1"
+            android:hint="min" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:text="to" />
+
+        <EditText
+            android:id="@+id/max_age_text"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:inputType="number"
+            android:maxLength="2"
+            android:maxLines="1" 
+            android:hint="max"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/price_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price:" />
+
+        <EditText
+            android:id="@+id/min_price_text"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:inputType="number"
+            android:maxLength="6"
+            android:maxLines="1"
+            android:hint="min" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:text="to" />
+
+        <EditText
+            android:id="@+id/max_price_text"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:inputType="number"
+            android:maxLength="6"
+            android:maxLines="1"
+            android:hint="max" />
+    </LinearLayout>
+	
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="?android:attr/dividerHorizontal" />
+
+    <Button
+        android:id="@+id/ok_button"
+        style="@android:style/Widget.Holo.Light.Button.Borderless.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:onClick="onClick" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help_title">Thanks for using C-Feed!</string>
+    <string name="help_message">C-Feed is a Craigslist search app\n\n
+        Simply select the city you would like to search, select a category to search in, type in your search query and hit "Search"!\n\n
+        The app saves the listings that you have already opened and will show you if any of the listings in the search are new (meaning you have not opened them yet)\n\n
+        This app is always under development and new features and functions are in progress\n\n
+        If you like this app and want to see more features and improvements, please donate!\n\n
+        Please feel free to contact me about any bugs, code improvements, or suggestions\n\n
+        C-Feed v0.3.9 Copyright &#169; 2013 John Krause jkrause@lavabit.com\n\n
+        Released under the GPLv3 License - Source at GitHub https://github.com/jpkrause/C-Feed
+        </string>
+    <string name="help_ok">Cool!</string>
+    <string name="help_donate">Donate</string>
+    
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">C-Feed</string>
+    <string name="action_about">About</string>
+    <string name="title_results_activity_list">Search Results</string>
+    <string name="title_activity_city_list">Choose City/Metro Area</string>
+    <string name="title_activity_country_list">Choose Country</string>
+    <string name="title_activity_continent_list">Choose Continent</string>
+    <string name="title_activity_category_list">Choose Category</string>
+    <string name="title_activity_state_list">Choose State/Province</string>
+    <string name="title_activity_section_list">Choose Section</string>
+    <string name="title_activity_options">Other Search Options</string>
+    <string name="title_activity_view_listing">View Listing</string>
+    <string name="text_select_region">Select a region</string>
+    <string name="text_select_category">Select a category</string>
+    <string name="btn_text_search">Search</string>
+    <string name="text_search_hint">Search for....</string>
+    <string name="btn_text_category">Category</string>
+    <string name="btn_text_region">Region</string>
+    <string name="btn_text_options">Other Options</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="bedrooms_array">
+        <item>0+ Bedrooms</item>
+        <item>1 Bedroom</item>
+        <item>2+ Bedrooms</item>
+        <item>3+ Bedrooms</item>
+        <item>4+ Bedrooms</item>
+        <item>5+ Bedrooms</item>
+        <item>6+ Bedrooms</item>
+        <item>7+ Bedrooms</item>
+        <item>8+ Bedrooms</item>
+    </string-array>
+
+    <string name="entire_post">Entire Post</string>
+    <string name="title_only">Title</string>
+    <string name="pay_opt">Pay</string>
+    <string name="no_pay">No-Pay</string>
+    <string name="all_pay">All</string>
+    <string name="has_image">Has Image</string>
+    <string name="cats_opt">Cats</string>
+    <string name="dogs_opt">Dogs</string>
+    <string name="telecommute">Telecommute</string>
+    <string name="contract">Contract</string>
+    <string name="internship">Internship</string>
+    <string name="part_time">Part-Time</string>
+    <string name="non_profit">Non-Profit</string>
+    <string name="min_ask">Min Price</string>
+    <string name="max_ask">Max Price</string>
+
+</resources>

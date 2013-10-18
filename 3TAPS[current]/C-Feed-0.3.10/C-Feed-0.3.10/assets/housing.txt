@@ -1,0 +1,10 @@
+all housing
+apts / housing
+rooms / shared
+sublets / temporary
+housing wanted
+housing swap
+vacation rentals
+parking / storage
+office / commercial
+real estate for sale
